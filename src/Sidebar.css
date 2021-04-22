@@ -1,0 +1,28 @@
+.sidebar{
+    width: 20%;
+    background-color: #040404;
+    min-width: 230px;
+    height: calc(100vh - 65px);
+    padding: 20px;
+}
+
+.sidebar__logo{
+    margin: 0 auto 10px auto;
+    display: block;
+    object-fit: contain;
+    height: 50px;
+}
+
+.sidebar > hr{
+    border: 1px solid #282828;
+    margin: 10px auto;
+}
+
+.sidebar__title{
+    font-size: 12px;
+}
+
+.playlist_container{
+    overflow-y: scroll;
+    height: 58%;
+}

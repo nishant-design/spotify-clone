@@ -1,0 +1,87 @@
+.body{
+    padding: 20px;
+    width: 80%;
+    height: calc(100vh - 65px);
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(56, 55, 71, 0.9) 100%);
+    overflow-y: scroll;
+}
+
+/* BODY BANNER */
+.body__banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+
+.body__recentlyPLayed{
+    margin-bottom: 10px;
+}
+
+/* BODY ICONS */
+.body__icons{
+    display: flex;
+    align-items: center;
+}
+
+.body__icons > .MuiSvgIcon-root{
+    margin-right: 10px;
+}
+
+.body__playBtn:hover{
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+}
+
+.body__favIcon:hover,
+.body__showMore:hover{
+    color: white;
+}
+
+.body__playBtn{
+    color: #1DB954;
+}
+
+/* -----------x-----------x--------------x--------------- */
+
+/* BODY TITLEBAR */
+
+.body__titleBar{
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    color: grey;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+.body__titleBar > .title{
+    display: flex;
+    align-items: center;
+    flex: 0.3;
+}
+
+.body__titleBar > .title > span{
+    margin-right: 20px;
+}
+
+.body__titleBar > small{
+    flex: 0.3;
+    text-align: right;
+}
+
+.body__titleBar > .artist{
+    text-align: center;
+}
+
+
+
+/* BODY SONGLIST */
+
+.body__songList{
+    padding: 0 0px;
+}

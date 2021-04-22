@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.header__left{
+    flex: 0.6;
+    min-width: 80px;
+    background-color: rgb(241, 241, 241);
+    color: grey;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.header__left > input {
+    border: none;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    margin-left: 10px;
+}
+
+.header__left > input:focus{
+    outline: none;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+}
+
+.header__right > h4{
+    margin-left: 10px;
+}

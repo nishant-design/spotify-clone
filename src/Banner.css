@@ -1,0 +1,41 @@
+.banner{
+    flex: 0.3;
+    min-width: 250px;
+    color: white;
+    background-color: rgba(126, 126, 126, 0.274);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    transition: background-color 250ms ease-in-out;
+    margin-bottom: 20px;
+}
+
+.banner:hover{
+    background-color: rgba(126, 126, 126, 0.616);
+
+}
+
+.banner__container{
+    display: flex;
+    align-items: center;
+}
+
+.banner__img{
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+    object-fit: contain;
+    border-radius: 4px 0 0 4px;
+    box-shadow: 4px 0px 15px rgba(39, 39, 39, 0.685);
+}
+
+.banner > h3{
+    margin-left: 10px;
+}
+
+.banner__playBtn{
+    margin-right: 20px;
+    color: #1DB954;
+    visibility: hidden;
+}
